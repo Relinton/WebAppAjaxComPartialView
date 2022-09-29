@@ -22,7 +22,7 @@ Todavia, dependendo do contexto n√£o pode ocorrer um Refresh (carregamento na p√
 - C#
 
 ## Ferramentas utilizadas
-Visual Studio
+Visual Studio,
 Sql Server
 
 # Autor
