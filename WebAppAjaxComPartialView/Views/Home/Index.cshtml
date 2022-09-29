@@ -1,0 +1,41 @@
+﻿@model Programador
+@{
+    ViewData["Title"] = DateTime.Now.ToLongTimeString();
+}
+
+<div class="container-fluid">
+    <div class="d-flex">
+        <div class="flex-column col-8">
+            <div class="row mt-0">
+                <div class="flex-column col-4">
+                    <img class="img-fluid" src="imagens\inteligenciaartial.jpg" alt="cricket" />
+                </div>
+                <div class="flex-column col-8">
+                    <h4 class="text-success">Inteligência Artifial</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="flex-column col-4">
+                    <img class="img-fluid" src="imagens\iconesearch.png" alt="cricket" />
+                </div>
+                <div class="flex-column col-8">
+                    <h4 class="text-success">Mecanismo de Busca</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-column col-4">
+            <div id="ListaCustomizada">
+                <!--Partial view area-->
+                <partial name="Partials/_Cadastrar" model="Model"/>
+            </div>
+        </div>
+    </div>
+</div>
