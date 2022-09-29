@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Este simples projeto visa apenas demonstrar a utilização do Ajax com Partial View
+Este simples projeto visa apenas demonstrar a utilização do Ajax com Partial View.
 Durante o desenvolvimento de sistemas, surgem necessidades de fazer páginas que precisam ser carregadas dentro de outras.
 Todavia, dependendo do contexto não pode ocorrer um Refresh (carregamento na página para atualização de informações) ai que entra o Ajax em ação.
 
